@@ -1,0 +1,518 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		75C2135F1D1B32E400FFB142 /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75C2135E1D1B32E400FFB142 /* Food.swift */; };
+		E574E5F31D1543E4000347EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E574E5F21D1543E4000347EB /* AppDelegate.swift */; };
+		E574E5F51D1543E4000347EB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E574E5F41D1543E4000347EB /* ViewController.swift */; };
+		E574E5F81D1543E4000347EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E574E5F61D1543E4000347EB /* Main.storyboard */; };
+		E574E5FA1D1543E4000347EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E574E5F91D1543E4000347EB /* Assets.xcassets */; };
+		E574E5FD1D1543E4000347EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E574E5FB1D1543E4000347EB /* LaunchScreen.storyboard */; };
+		E574E6081D1543E4000347EB /* EatAndDrinkTodayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E574E6071D1543E4000347EB /* EatAndDrinkTodayTests.swift */; };
+		E574E6131D1543E4000347EB /* EatAndDrinkTodayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E574E6121D1543E4000347EB /* EatAndDrinkTodayUITests.swift */; };
+		E5FA50C11D1C62560033D7F1 /* Drink.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5FA50C01D1C62560033D7F1 /* Drink.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E574E6041D1543E4000347EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E574E5E71D1543E3000347EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E574E5EE1D1543E4000347EB;
+			remoteInfo = EatAndDrinkToday;
+		};
+		E574E60F1D1543E4000347EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E574E5E71D1543E3000347EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E574E5EE1D1543E4000347EB;
+			remoteInfo = EatAndDrinkToday;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		75C2135E1D1B32E400FFB142 /* Food.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
+		E574E5EF1D1543E4000347EB /* EatAndDrinkToday.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EatAndDrinkToday.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E574E5F21D1543E4000347EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E574E5F41D1543E4000347EB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E574E5F71D1543E4000347EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E574E5F91D1543E4000347EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E574E5FC1D1543E4000347EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E574E5FE1D1543E4000347EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E574E6031D1543E4000347EB /* EatAndDrinkTodayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EatAndDrinkTodayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E574E6071D1543E4000347EB /* EatAndDrinkTodayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EatAndDrinkTodayTests.swift; sourceTree = "<group>"; };
+		E574E6091D1543E4000347EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E574E60E1D1543E4000347EB /* EatAndDrinkTodayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EatAndDrinkTodayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E574E6121D1543E4000347EB /* EatAndDrinkTodayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EatAndDrinkTodayUITests.swift; sourceTree = "<group>"; };
+		E574E6141D1543E4000347EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5FA50C01D1C62560033D7F1 /* Drink.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Drink.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E574E5EC1D1543E4000347EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E574E6001D1543E4000347EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E574E60B1D1543E4000347EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E574E5E61D1543E3000347EB = {
+			isa = PBXGroup;
+			children = (
+				E574E5F11D1543E4000347EB /* EatAndDrinkToday */,
+				E574E6061D1543E4000347EB /* EatAndDrinkTodayTests */,
+				E574E6111D1543E4000347EB /* EatAndDrinkTodayUITests */,
+				E574E5F01D1543E4000347EB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E574E5F01D1543E4000347EB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E574E5EF1D1543E4000347EB /* EatAndDrinkToday.app */,
+				E574E6031D1543E4000347EB /* EatAndDrinkTodayTests.xctest */,
+				E574E60E1D1543E4000347EB /* EatAndDrinkTodayUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E574E5F11D1543E4000347EB /* EatAndDrinkToday */ = {
+			isa = PBXGroup;
+			children = (
+				E574E5F21D1543E4000347EB /* AppDelegate.swift */,
+				75C2135E1D1B32E400FFB142 /* Food.swift */,
+				E574E5F41D1543E4000347EB /* ViewController.swift */,
+				E5FA50C01D1C62560033D7F1 /* Drink.swift */,
+				E574E5F61D1543E4000347EB /* Main.storyboard */,
+				E574E5F91D1543E4000347EB /* Assets.xcassets */,
+				E574E5FB1D1543E4000347EB /* LaunchScreen.storyboard */,
+				E574E5FE1D1543E4000347EB /* Info.plist */,
+			);
+			path = EatAndDrinkToday;
+			sourceTree = "<group>";
+		};
+		E574E6061D1543E4000347EB /* EatAndDrinkTodayTests */ = {
+			isa = PBXGroup;
+			children = (
+				E574E6071D1543E4000347EB /* EatAndDrinkTodayTests.swift */,
+				E574E6091D1543E4000347EB /* Info.plist */,
+			);
+			path = EatAndDrinkTodayTests;
+			sourceTree = "<group>";
+		};
+		E574E6111D1543E4000347EB /* EatAndDrinkTodayUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E574E6121D1543E4000347EB /* EatAndDrinkTodayUITests.swift */,
+				E574E6141D1543E4000347EB /* Info.plist */,
+			);
+			path = EatAndDrinkTodayUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E574E5EE1D1543E4000347EB /* EatAndDrinkToday */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E574E6171D1543E4000347EB /* Build configuration list for PBXNativeTarget "EatAndDrinkToday" */;
+			buildPhases = (
+				E574E5EB1D1543E4000347EB /* Sources */,
+				E574E5EC1D1543E4000347EB /* Frameworks */,
+				E574E5ED1D1543E4000347EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EatAndDrinkToday;
+			productName = EatAndDrinkToday;
+			productReference = E574E5EF1D1543E4000347EB /* EatAndDrinkToday.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E574E6021D1543E4000347EB /* EatAndDrinkTodayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E574E61A1D1543E4000347EB /* Build configuration list for PBXNativeTarget "EatAndDrinkTodayTests" */;
+			buildPhases = (
+				E574E5FF1D1543E4000347EB /* Sources */,
+				E574E6001D1543E4000347EB /* Frameworks */,
+				E574E6011D1543E4000347EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E574E6051D1543E4000347EB /* PBXTargetDependency */,
+			);
+			name = EatAndDrinkTodayTests;
+			productName = EatAndDrinkTodayTests;
+			productReference = E574E6031D1543E4000347EB /* EatAndDrinkTodayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E574E60D1D1543E4000347EB /* EatAndDrinkTodayUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E574E61D1D1543E4000347EB /* Build configuration list for PBXNativeTarget "EatAndDrinkTodayUITests" */;
+			buildPhases = (
+				E574E60A1D1543E4000347EB /* Sources */,
+				E574E60B1D1543E4000347EB /* Frameworks */,
+				E574E60C1D1543E4000347EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E574E6101D1543E4000347EB /* PBXTargetDependency */,
+			);
+			name = EatAndDrinkTodayUITests;
+			productName = EatAndDrinkTodayUITests;
+			productReference = E574E60E1D1543E4000347EB /* EatAndDrinkTodayUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E574E5E71D1543E3000347EB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = LiczekCompany;
+				TargetAttributes = {
+					E574E5EE1D1543E4000347EB = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					E574E6021D1543E4000347EB = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = E574E5EE1D1543E4000347EB;
+					};
+					E574E60D1D1543E4000347EB = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = E574E5EE1D1543E4000347EB;
+					};
+				};
+			};
+			buildConfigurationList = E574E5EA1D1543E3000347EB /* Build configuration list for PBXProject "EatAndDrinkToday" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E574E5E61D1543E3000347EB;
+			productRefGroup = E574E5F01D1543E4000347EB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E574E5EE1D1543E4000347EB /* EatAndDrinkToday */,
+				E574E6021D1543E4000347EB /* EatAndDrinkTodayTests */,
+				E574E60D1D1543E4000347EB /* EatAndDrinkTodayUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E574E5ED1D1543E4000347EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E574E5FD1D1543E4000347EB /* LaunchScreen.storyboard in Resources */,
+				E574E5FA1D1543E4000347EB /* Assets.xcassets in Resources */,
+				E574E5F81D1543E4000347EB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E574E6011D1543E4000347EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E574E60C1D1543E4000347EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E574E5EB1D1543E4000347EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E574E5F51D1543E4000347EB /* ViewController.swift in Sources */,
+				E574E5F31D1543E4000347EB /* AppDelegate.swift in Sources */,
+				E5FA50C11D1C62560033D7F1 /* Drink.swift in Sources */,
+				75C2135F1D1B32E400FFB142 /* Food.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E574E5FF1D1543E4000347EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E574E6081D1543E4000347EB /* EatAndDrinkTodayTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E574E60A1D1543E4000347EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E574E6131D1543E4000347EB /* EatAndDrinkTodayUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E574E6051D1543E4000347EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E574E5EE1D1543E4000347EB /* EatAndDrinkToday */;
+			targetProxy = E574E6041D1543E4000347EB /* PBXContainerItemProxy */;
+		};
+		E574E6101D1543E4000347EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E574E5EE1D1543E4000347EB /* EatAndDrinkToday */;
+			targetProxy = E574E60F1D1543E4000347EB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E574E5F61D1543E4000347EB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E574E5F71D1543E4000347EB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E574E5FB1D1543E4000347EB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E574E5FC1D1543E4000347EB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E574E6151D1543E4000347EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E574E6161D1543E4000347EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E574E6181D1543E4000347EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EatAndDrinkToday/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.liczekcompany.EatAndDrinkToday;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		E574E6191D1543E4000347EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EatAndDrinkToday/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.liczekcompany.EatAndDrinkToday;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		E574E61B1D1543E4000347EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = EatAndDrinkTodayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.liczekcompany.EatAndDrinkTodayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EatAndDrinkToday.app/EatAndDrinkToday";
+			};
+			name = Debug;
+		};
+		E574E61C1D1543E4000347EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = EatAndDrinkTodayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.liczekcompany.EatAndDrinkTodayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EatAndDrinkToday.app/EatAndDrinkToday";
+			};
+			name = Release;
+		};
+		E574E61E1D1543E4000347EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = EatAndDrinkTodayUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.liczekcompany.EatAndDrinkTodayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = EatAndDrinkToday;
+			};
+			name = Debug;
+		};
+		E574E61F1D1543E4000347EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = EatAndDrinkTodayUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.liczekcompany.EatAndDrinkTodayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = EatAndDrinkToday;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E574E5EA1D1543E3000347EB /* Build configuration list for PBXProject "EatAndDrinkToday" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E574E6151D1543E4000347EB /* Debug */,
+				E574E6161D1543E4000347EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E574E6171D1543E4000347EB /* Build configuration list for PBXNativeTarget "EatAndDrinkToday" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E574E6181D1543E4000347EB /* Debug */,
+				E574E6191D1543E4000347EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E574E61A1D1543E4000347EB /* Build configuration list for PBXNativeTarget "EatAndDrinkTodayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E574E61B1D1543E4000347EB /* Debug */,
+				E574E61C1D1543E4000347EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E574E61D1D1543E4000347EB /* Build configuration list for PBXNativeTarget "EatAndDrinkTodayUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E574E61E1D1543E4000347EB /* Debug */,
+				E574E61F1D1543E4000347EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E574E5E71D1543E3000347EB /* Project object */;
+}
